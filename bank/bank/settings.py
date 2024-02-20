@@ -26,15 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-43%3)w@ycfqz&h&4zurj@9d*&7j*1pushgi3*^ddp004rl_@%x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 0
 
-ALLOWED_HOSTS = [
-    '0.0.0.0',
-    # config("AULA"),
-    # config("DJANGO"),
-    # config("LISTENER"),
-    # config("LOCALHOST"),
-]
+ALLOWED_HOSTS = ['adabank.alejandrohernandez.arkania.es']
 
 # INTERNAL_IPS = ["10.109.18.40"]
 
